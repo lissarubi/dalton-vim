@@ -1,6 +1,6 @@
 # Dalton.vim
 
-Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://github.com/ayu-theme/ayu-vim), with a dark, light and medium theme.
+Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://github.com/ayu-theme/ayu-vim), only with dark theme.
 
 # Screenshots
 
