@@ -4,10 +4,13 @@ Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://gith
 
 # Screenshots
 
-Dalton Screenshot:
+## Dalton Screenshot:
 
-![Dalton](assets/dark.png)
+![Dalton](assets/dalton.png)
 
+## Dalton for Vim-Airline
+
+![Airline](assets/daltonairline.png)
 
 # Install
 
@@ -37,4 +40,12 @@ Plug 'edersonferreira/dalton-vim'
 call plug#end()
 
 color dalton
+```
+
+## Vim Airline
+
+To use dalton in Vim Airline, change/add this line to your vim conig file:
+
+```
+let g:airline_theme='dalton'
 ```
