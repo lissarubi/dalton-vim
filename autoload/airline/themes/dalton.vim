@@ -19,24 +19,24 @@ let s:RE = [ '#EEEEEE' , '#FF3333' , 255  , 202 ] " guifg guibg ctermfg ctermbg
 "modified color
 let s:modified  = [22, '#005F00']
 
-let g:airline#themes#daltondark#palette = {}
+let g:airline#themes#dalton#palette = {}
 
-let g:airline#themes#daltondark#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+let g:airline#themes#dalton#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
-let g:airline#themes#daltondark#palette.normal_modified = {
+let g:airline#themes#dalton#palette.normal_modified = {
     \ 'airline_a': ['', s:modified[1], '', s:modified[0], ''],
     \ 'airline_c': [s:modified[1], '', s:modified[0], '', ''],
     \ 'airline_x': [s:modified[1], '', s:modified[0], '', ''],
     \ 'airline_z': ['', s:modified[1], '', s:modified[0], '']}
 
-let g:airline#themes#daltondark#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-let g:airline#themes#daltondark#palette.insert_replace = {
+let g:airline#themes#dalton#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+let g:airline#themes#dalton#palette.insert_replace = {
             \ 'airline_a': [ s:RE[0]   , s:I1[1]   , s:RE[1]   , s:I1[3]   , ''     ] }
 
-let g:airline#themes#daltondark#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
+let g:airline#themes#dalton#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
-let g:airline#themes#daltondark#palette.replace = copy(g:airline#themes#daltondark#palette.normal)
-let g:airline#themes#daltondark#palette.replace.airline_a = [ s:RE[0] , s:RE[1] , s:RE[2] , s:RE[3] , '' ]
+let g:airline#themes#dalton#palette.replace = copy(g:airline#themes#dalton#palette.normal)
+let g:airline#themes#dalton#palette.replace.airline_a = [ s:RE[0] , s:RE[1] , s:RE[2] , s:RE[3] , '' ]
 
 let s:IA = [ s:N1[1] , s:N3[1] , s:N1[3] , s:N3[3] , '' ]
-let g:airline#themes#daltondark#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#dalton#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
