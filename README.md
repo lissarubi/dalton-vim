@@ -49,3 +49,7 @@ To use dalton in Vim Airline, change/add this line to your vim conig file:
 ```
 let g:airline_theme='dalton'
 ```
+
+# More dalton themes for another programs
+
+[Dalton for Rofi](https://github.com/edersonferreira/dalton-rofi)
