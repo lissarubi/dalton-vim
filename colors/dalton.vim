@@ -16,15 +16,15 @@ let s:palette = {}
 let s:palette.bg        = { 'dark': "#0C0A0F"}
 
 let s:palette.comment   = {'dark': "#5C6773"}
-let s:palette.markup    = {'dark': "#FF526A"}
+let s:palette.markup    = {'dark': "#E85F3F"}
 let s:palette.constant  = {'dark': "#FFEE67"}
-let s:palette.operator  = {'dark': "#ECC400"}
-let s:palette.tag       = {'dark': "#00A9FE"}
-let s:palette.regexp    = {'dark': "#44F0C3"}
-let s:palette.string    = {'dark': "#B8CC52"}
-let s:palette.function  = {'dark': "#76D93A"}
-let s:palette.special   = {'dark': "#f5b145"}
-let s:palette.keyword   = {'dark': "#ff6400"}
+let s:palette.operator  = {'dark': "#F0EE00"}
+let s:palette.tag       = {'dark': "#2B7DF0"}
+let s:palette.regexp    = {'dark': "#32BCD9"}
+let s:palette.string    = {'dark': "#3BF035"}
+let s:palette.function  = {'dark': "#30DB22"}
+let s:palette.special   = {'dark': "#DEAE33"}
+let s:palette.keyword   = {'dark': "#F50C40"}
 
 let s:palette.error     = {'dark': "#FF001D"}
 let s:palette.accent    = {'dark': "#FF8F00"}
@@ -32,8 +32,9 @@ let s:palette.panel     = {'dark': "#14191F"}
 let s:palette.guide     = {'dark': "#2D3640"}
 let s:palette.line      = {'dark': "#161419"}
 let s:palette.selection = {'dark': "#253340"}
-let s:palette.fg        = {'dark': "#EEEEEE"}
+let s:palette.fg        = {'dark': "#FFFFFF"}
 let s:palette.fg_idle   = {'dark': "#3E4B59"}
+
 "}}}
 
 " Highlighting Primitives:"{{{
