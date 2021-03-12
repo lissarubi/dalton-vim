@@ -4,9 +4,21 @@ Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://gith
 
 # Screenshots
 
-## Dalton Screenshot:
+## HTML
 
-![Dalton](assets/dalton.png)
+![HTML File with Dalton](assets/html.png)
+
+## PHP
+
+![PHP File with Dalton](assets/php.png)
+
+## Javascript
+
+![Javascript File with Dalton](assets/js.png)
+
+## Golang
+
+![Golang File with Dalton](assets/golang.png)
 
 ## Dalton for Vim-Airline
 
