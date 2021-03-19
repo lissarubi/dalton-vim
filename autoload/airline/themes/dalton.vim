@@ -4,17 +4,17 @@ let s:N2 = [ '#EEEEEE' , '#0E1317' , 255 , 235  ] " guifg guibg ctermfg ctermbg
 let s:N3 = [ '#B3B1AD' , '#0C0A0F' , 250 , 235  ] " guifg guibg ctermfg ctermbg
 
 " Insert mode
-let s:I1 = [ '#EEEEEE' , '#006CA1' , 255 , 43   ] " guifg guibg ctermfg ctermbg
-let s:I2 = [ '#006CA1' , '#0E1317' , 255 , 235  ] " guifg guibg ctermfg ctermbg
-let s:I3 = [ '#B3B1AD' , '#0C0A0F' , 250 , 235  ] " guifg guibg ctermfg ctermbg
+let s:I1 = [ '#EEEEEE' , '#006CA1' , 255 , 39   ] " guifg guibg ctermfg ctermbg
+let s:I2 = [ '#2B7DF0' , '#0E1317' , 39 , 235  ] " guifg guibg ctermfg ctermbg
+let s:I3 = [ '#2B7DF0' , '#0C0A0F' , 39 , 235  ] " guifg guibg ctermfg ctermbg
 
 " Visual mode
-let s:V1 = [ '#EEEEEE' , '#C46C00' , 255 , 172  ] " guifg guibg ctermfg ctermbg
-let s:V2 = [ '#C46C00' , '#0E1317' , 255 , 235  ] " guifg guibg ctermfg ctermbg
-let s:V3 = [ '#B3B1AD' , '#0C0A0F' , 250 , 235  ] " guifg guibg ctermfg ctermbg
+let s:V1 = [ '#0C0A0F' , '#F0EE00' , 255 , 11  ] " guifg guibg ctermfg ctermbg
+let s:V2 = [ '#F0EE00' , '#0E1317' , 11 , 235  ] " guifg guibg ctermfg ctermbg
+let s:V3 = [ '#F0EE00' , '#0C0A0F' , 11 , 235  ] " guifg guibg ctermfg ctermbg
 
 " Replace mode
-let s:RE = [ '#EEEEEE' , '#FF3333' , 255  , 202 ] " guifg guibg ctermfg ctermbg
+let s:RE = [ '#EEEEEE' , '#E85F3F' , 255  , 202 ] " guifg guibg ctermfg ctermbg
 
 "modified color
 let s:modified  = [22, '#005F00']
