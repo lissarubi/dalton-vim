@@ -1,5 +1,7 @@
 # Dalton.vim
 
+> Dalton.vim is a Vim port of Dalton Theme, check out [Dalton Website](https://edersonferreira.github.io/dalton-website/) to get more dalton theme ports.
+
 Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://github.com/ayu-theme/ayu-vim), only with dark theme.
 
 # Screenshots
@@ -61,7 +63,3 @@ To use dalton in Vim Airline, change/add this line to your vim conig file:
 ```
 let g:airline_theme='dalton'
 ```
-
-# More dalton themes for another programs
-
-[Dalton for Rofi](https://github.com/edersonferreira/dalton-rofi)
