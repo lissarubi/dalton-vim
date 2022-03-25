@@ -1,6 +1,6 @@
 # Dalton.vim
 
-> Dalton.vim is a Vim port of Dalton Theme, check out [Dalton Website](https://edersonferreira.github.io/dalton-website/) to get more dalton theme ports.
+> Dalton.vim is a Vim port of Dalton Theme, check out [Dalton Website](https://lissaferreira.github.io/dalton-website/) to get more dalton theme ports.
 
 Dalton is a minimalist theme for Vim, very based in [Ayu Vim theme](https://github.com/ayu-theme/ayu-vim), only with dark theme.
 
@@ -37,7 +37,7 @@ Add these lines to your Vim config file:
 ```vim
 call vundle#begin()
 
-Plugin 'edersonferreira/dalton-vim'
+Plugin 'lissaferreira/dalton-vim'
 
 call vundle#end()
 
@@ -49,7 +49,7 @@ color dalton
 ```vim
 call plug#begin()
 
-Plug 'edersonferreira/dalton-vim'
+Plug 'lissaferreira/dalton-vim'
 
 call plug#end()
 
